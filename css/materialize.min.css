@@ -85,14 +85,10 @@
 
 .collection-item {
   padding-left: 15px; /* Ajuste o espaçamento à esquerda para os itens */
-  font-size: 2.5em; /* Define o tamanho da fonte para os itens */
+  font-size: 1.2em; /* Define o tamanho da fonte para os itens */
 }
 
-@media (min-width: 768px) {
-  .collection-item {
-      font-size: 1.2em; /* Ajuste o tamanho da fonte para telas maiores */
-  }
-}
+
 
 
 /*
