@@ -78,6 +78,9 @@
   font-size:1.4rem; 
 }
 
+.collection {
+  border-radius: 5px; /* Arredonda as bordas da coleção */
+}
 .collection-header.vag-dark {
   height: 80px; /* Defina a altura desejada para os cabeçalhos */
   background-color: #000; /* Cor de fundo preta */
@@ -87,6 +90,12 @@
   padding-left: 15px; /* Ajuste o espaçamento à esquerda para os itens */
   font-size: 1.2em; /* Define o tamanho da fonte para os itens */
 }
+
+blockquote{
+  border-left-color:black;
+  font-size:1.6rem; 
+}
+
 
 
 
