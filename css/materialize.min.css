@@ -71,11 +71,15 @@
 
 
 .icon {
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
   margin-right: 10px;
   vertical-align: middle;
-  display: inline-block;
+  
+}
+
+.btnwhats{
+  font-size: 1.2rem;
 }
 
 .listcard-rem{
