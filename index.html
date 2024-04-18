@@ -25,6 +25,7 @@
                     <img src="img/iconebranco.png" alt="Logo">
                 </a>
             </div>
+            
         </nav>
         
         <div id="index-banner" class="parallax-container">
@@ -51,7 +52,7 @@
                 </div>
             </div>
             <div class="parallax black">
-                <img src="img/vf1.png"  style="transform: translate3d(-40%,54.96px, 0px); opacity: 0.8;"> 
+                <img src="img/vf1.png"  style="transform: translate3d(-40%,18.189px, 0px); opacity: 0.8;"> 
             </div>
         </div>
         <br>
@@ -94,7 +95,7 @@
         </div>
             <br>
             <br>
-            <div class="row center">
+        <div class="row center">
                 <h1><i class="fa-brands fa-connectdevelop"></i></h1>
                 <h3>ADVOCACIA DIGITAL</h3>
                 <div class="container">
@@ -103,7 +104,7 @@
                     e meios tecnologicos para nossos clientes, 
                     priorizando o uso da Justiça Virtual</h4>
                 </div>
-            </div>
+        </div>
 
            
         
@@ -148,7 +149,14 @@
         </footer>
 
         <!--JavaScript at end of body for optimized loading-->
-        <script type="text/javascript" src="js/materialize.min.js"></script>    
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.parallax');
+                var instances = M.Parallax.init(elems);
+            });
+        </script>    
      
     </body>
 </html>
