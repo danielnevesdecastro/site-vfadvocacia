@@ -104,8 +104,15 @@ blockquote{
   font-size:1.6rem; 
 }
 
+/* menu */
+.menu-item{
+  transition: all 0.3s ease;
+}
 
-
+.menu-item:hover{
+  font-size: 1.1em;
+  color:#FFD43B
+}
 
 
 /*
