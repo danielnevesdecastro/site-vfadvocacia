@@ -35,18 +35,22 @@
 
 
 .logo{
-    display: inline-block;
-    height: 80%;
+    text-align: left; /* Centraliza horizontalmente */
+    width: 100%; /* Ocupa toda a largura do contêiner */
 }
 
 
 .logo>img {
-	width:10%;
+	  width:10%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
+.logoMobile{
+  display: none;
+
+}
 .logo2{
   width:70%;
   padding-top: 5%;
@@ -110,10 +114,30 @@ blockquote{
 }
 
 .menu-item:hover{
-  font-size: 1.1em;
-  color:#FFD43B
+
+  color: #050505 ;
+  background-color: #FFD43B;
 }
 
+/* Estilos para telas menores, como smartphones */
+@media screen and (max-width: 600px) {
+
+  .logo{
+    display: none;
+
+  }
+  .logoMobile{
+  display:inline;
+   width: 40%;
+  
+  }
+  .logo2 {
+      width: 100%; /* Define a largura do logo2 para 100% */
+      padding-top: 5%; /* Remove o preenchimento superior */
+  }
+  
+
+}
 
 /*
 
